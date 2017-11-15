@@ -16,7 +16,7 @@ public class TotalStrategy implements IStrategy
             if(review.getYear() == year)
             {
                 int score = 0;
-                for(int i = 0; i <= review.getKpis().length; i++)
+                for(int i = 0; i < review.getKpis().length; i++)
                 {
                     score += review.getKpis()[i];
                 }

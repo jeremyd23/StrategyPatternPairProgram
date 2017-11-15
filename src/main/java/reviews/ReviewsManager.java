@@ -31,7 +31,7 @@ public class ReviewsManager
 	//loads fictitious data from a text file
 	private void loadData()
 	{
-		try(Scanner reader = new Scanner(new FileInputStream("files/reviews.txt")))
+		try(Scanner reader = new Scanner(new FileInputStream("src/files/reviews.txt")))
 		{
 			//for each review in the file
 			while (reader.hasNextLine())
